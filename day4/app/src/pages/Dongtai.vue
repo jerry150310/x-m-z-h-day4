@@ -1,0 +1,43 @@
+<template>
+    <div class="dt">
+        我是动态页面
+    </div>
+</template>
+<script>
+export default {
+    props:{
+
+    },
+    components:{
+
+    },
+    data(){
+        return {
+
+        }
+    },
+    computed:{
+
+    },
+    methods:{
+
+    },
+    created(){
+
+    },
+    mounted(){
+
+    }
+}
+</script>
+<style scoped lang="">
+    .dt{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background: lightcoral;
+    }
+</style>
